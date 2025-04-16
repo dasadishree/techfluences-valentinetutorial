@@ -1,0 +1,30 @@
+@font-face {
+    font-family: heart;
+    src: url('heart.TTF')
+}
+body{
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    font-family: heart, sans-serif;
+    font-size: 400%;
+    color: purple;
+    margin-bottom: 0
+}
+img{
+    width: 40%;
+    height: 50%;
+    border: 20px double pink
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 30px solid transparent;
+    padding: 15px;
+    border-image: url(lace.png) 30 round;
+}
